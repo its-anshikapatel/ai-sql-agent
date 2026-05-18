@@ -1,36 +1,165 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI SQL Agent 🤖🗄️
 
-## Getting Started
+An intelligent AI-powered SQL Agent that allows users to interact with databases using natural language queries. The system converts human language into SQL queries, executes them, and returns meaningful results in real time.
 
-First, run the development server:
+---
+
+## 🚀 Features
+
+- 🤖 Natural Language to SQL Conversion
+- 🗄️ Database Query Automation
+- ⚡ Real-Time Query Execution
+- 📊 Intelligent Data Retrieval
+- 🔍 SQL Query Generation using AI
+- 📱 Responsive & Clean UI
+- 🛡️ Error Handling & Query Validation
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- JavaScript
+- Tailwind CSS
+
+### Backend
+- Node.js
+- Express.js
+
+### AI Integration
+- OpenAI API / Gemini API
+- Prompt Engineering
+
+### Database
+- MySQL / PostgreSQL
+
+### Tools & Platforms
+- Git & GitHub
+- REST APIs
+
+---
+
+## 📂 Project Structure
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+ai-sql-agent/
+│
+├── client/             # Frontend
+├── server/             # Backend APIs
+├── database/           # Database configs
+├── prompts/            # AI prompt templates
+├── src/
+├── package.json
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ⚙️ Installation & Setup
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 1️⃣ Clone the Repository
 
-## Learn More
+```bash
+git clone https://github.com/its-anshikapatel/ai-sql-agent.git
+```
 
-To learn more about Next.js, take a look at the following resources:
+### 2️⃣ Navigate to Project Folder
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+cd ai-sql-agent
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 3️⃣ Install Dependencies
 
-## Deploy on Vercel
+```bash
+npm install
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 4️⃣ Setup Environment Variables
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Create a `.env` file and add:
+
+```env
+OPENAI_API_KEY=your_api_key
+DATABASE_URL=your_database_url
+```
+
+---
+
+### 5️⃣ Run the Project
+
+```bash
+npm start
+```
+
+---
+
+## 💡 How It Works
+
+1. User enters a natural language question  
+2. AI converts it into an SQL query  
+3. Backend validates and executes the query  
+4. Results are displayed instantly to the user  
+
+---
+
+## 🌐 Use Cases
+
+- 📊 Business Analytics
+- 🏢 Database Management
+- 📈 Dashboard Querying
+- 🎓 SQL Learning Assistant
+- ⚙️ Internal Company Tools
+
+---
+
+## 📸 Screenshots
+
+### AI Query Interface
+Add screenshot here
+
+### SQL Output
+Add screenshot here
+
+### Dashboard
+Add screenshot here
+
+---
+
+## 🎯 Future Improvements
+
+- 🔐 User Authentication
+- 📂 Multi-Database Support
+- 📊 Data Visualization Charts
+- 🧠 Query Optimization Suggestions
+- 🌍 Deployment & Cloud Integration
+- 🎙️ Voice-to-SQL Feature
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to GitHub
+5. Open a Pull Request
+
+---
+
+## 👩‍💻 Developer
+
+Developed with ❤️ by **Anshika Patel**
+
+- GitHub: https://github.com/its-anshikapatel
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
+
+---
